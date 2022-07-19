@@ -6,7 +6,6 @@ import {
     TestIds,
 } from 'react-native-google-mobile-ads';
 import { keywords, ADMOB_IDS } from '../keys';
-
 const adUnitId = __DEV__
     ? TestIds.REWARDED_INTERSTITIAL
     : ADMOB_IDS.REWARDED_INTERSTITIAL;
@@ -47,7 +46,5 @@ export default () => {
             rewardedInterstitial.show()
         }
     }, [loaded])
-    return (
-        <View />
-    );
+    return <View />
 }

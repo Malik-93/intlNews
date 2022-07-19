@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="splash_color">#BE6042</color>
-    <color name="app_bg">#BE6042</color>
+    <color name="splash_color">#addfed</color>
+    <color name="app_bg">#addfed</color>
     <color name="primary_black">#000000</color>
 </resources>

@@ -1,4 +1,4 @@
-const keywords = ['news', 'cnn', 'sports', 'reports', 'fashion', 'clothing']
+const keywords = ['news', 'cnn', 'sports', 'reports', 'fashion', 'clothing'];
 const ADMOB_IDS = {
     BANNER: 'ca-app-pub-7995450766805577/3657424154',
     INTERSTITIAL: 'ca-app-pub-7995450766805577/4278873709',

@@ -113,3 +113,14 @@ export const closeFCM = () => {
     localNotificationService.unRegister();
     fcmService.unRegister();
 }
+
+export const globals = {
+    keywords: ['news', 'cnn', 'sports', 'reports', 'fashion', 'clothing']
+}
+export const setGlobals = (args) => {
+    globals = {
+        ...globals,
+        ...args
+    };
+}
+export const getGlobals = () => globals.current;

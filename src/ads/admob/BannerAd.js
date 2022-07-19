@@ -1,18 +1,18 @@
 import React from 'react';
 import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
 import { keywords, ADMOB_IDS } from '../keys';
-
-const adUnitId = __DEV__ ? TestIds.BANNER : ADMOB_IDS.BANNER;
-
+const adUnitId = __DEV__ ? ADMOB_IDS.BANNER : ADMOB_IDS.BANNER;
 export default () => {
-    console.log('BannerAd ran...');
+    const [hide, setHide] = React.useState(false);
+    if (hide) return null;
     return (
         <BannerAd
+            onAdFailedToLoad={() => setHide(true)}
             unitId={adUnitId}
             size={BannerAdSize.FULL_BANNER}
             requestOptions={{
                 requestNonPersonalizedAdsOnly: true,
-                keywords
+                keywords,
             }}
         />
     );
