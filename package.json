@@ -13,9 +13,18 @@
   },
   "dependencies": {
     "@react-native-community/progress-bar-android": "^1.0.4",
+    "@react-native-community/push-notification-ios": "^1.10.1",
+    "@react-native-firebase/app": "^15.1.1",
+    "@react-native-firebase/messaging": "^15.1.1",
+    "appcenter": "^4.4.4",
+    "appcenter-analytics": "^4.4.4",
+    "appcenter-crashes": "^4.4.4",
     "react": "18.0.0",
     "react-native": "0.69.1",
-    "react-native-admob-next": "https://github.com/Malik-93/react-native-admob-next",
+    "react-native-code-push": "^7.0.4",
+    "react-native-fbads": "^7.1.0",
+    "react-native-google-mobile-ads": "^7.0.1",
+    "react-native-push-notification": "^8.1.1",
     "react-native-webview": "^11.22.7"
   },
   "devDependencies": {

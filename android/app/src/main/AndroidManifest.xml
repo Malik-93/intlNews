@@ -2,6 +2,10 @@
   package="com.intlnews">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- for firebase -->
+     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+<!-- for firebase -->
 
     <application
       android:name=".MainApplication"
@@ -22,5 +26,11 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
+
+      <!-- for admob -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7995450766805577~7426398336"/>
+      <!-- for admob -->
     </application>
 </manifest>
